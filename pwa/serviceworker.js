@@ -2,6 +2,9 @@ var staticCacheName = "django-pwa-v" + new Date().getTime();
 var filesToCache = [
     'static/logos/factory2.png',
     'static/logos/factory2apple.png',
+    'static/bootstrap-4.6.0-dist/js/jquery-3.5.1.slim.min.js',
+    'static/bootstrap-4.6.0-dist/js/bootstrap.bundle.min.js',
+    'static/bootstrap-4.6.0-dist/css/bootstrap.min.css',
 ];
 
 // Cache on install
